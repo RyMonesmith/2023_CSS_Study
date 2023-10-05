@@ -6,9 +6,38 @@
 
     <!-- Inline styles go between style tags -->
     <style>
+        h1{
+            color:red;
+        }
+/* selectors can be combined. Child sector*/
+        form > p{
+            color: green;
+        }
 
+        label{
+            font-weight:900;
+        }
+        /* selectors can be combined via direct sibling*/
+label + input{
+    clear:both;
+    display:block;
+}
+        label ~ input{
+            clear:both;
+            display:block;
+        }
+        button{
+            color: blue;
+            backround-color: green;
+        }
+input[type="text"]{
+    background-color: lightgray;
+
+}
 
     </style>
+
+
 
 
 </head>
