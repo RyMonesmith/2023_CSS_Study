@@ -65,6 +65,45 @@
 
         }
 
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+
+        }
+
+        li{
+            float: left;
+            border-right: 1px solid white;
+
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        li a:hover{
+            background-color: #111;
+        }
+
+        .active{
+            background-color: darkgreen;
+
+        }
+
+        .advertise{
+            float: right;
+            background-color: red;
+
+        }
+
+
 
 
 
@@ -77,7 +116,20 @@
 <body>
 
 <div class="container">
-    <div class="searchbar">search bar goes here</div>
+    <div class="searchbar">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Mailing List</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li class="advertise"><a href="#">Money GRRRR</a></li>
+
+        </ul>
+
+
+
+    </div>
     <div class="header">header goes here</div>
     <div class="sliderNav">
 
