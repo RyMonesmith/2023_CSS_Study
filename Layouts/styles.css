@@ -1,0 +1,97 @@
+.container{
+    width: 1200px;
+    background-color: grey;
+    margin: auto;
+}
+
+.searchbar{
+    width: 1200px;
+    height: 50px;
+    background-color: red;
+}
+
+.header{
+    width: 1200px;
+    height: 104px;
+    background-color: blue;
+
+}
+
+.sliderNav{
+    width: 200px;
+    height: 700px;
+    background-color: blue;
+    float: left;
+
+}
+
+.pic{
+    width: 1000px;
+    height: 350px;
+    background-color: yellow;
+    float: left;
+}
+
+.cardHolder{
+    width: 1000px;
+    height: 350px;
+    background-color: purple;
+    float: left;
+
+}
+
+.midcard{
+    height: 330px;
+    width: 315px;
+    background-color: white;
+    float: left;
+    margin: 10px 7px 7px 7px;
+
+}
+
+.sidecard{
+    height: 330px;
+    width: 315px;
+    background-color: white;
+    float: left;
+    margin: 10px 7px 7px 7px;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li{
+    float: left;
+    border-right: 1px solid white;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: darkgreen;
+
+}
+
+.advertise{
+    float: right;
+    background-color: red;
+
+}
